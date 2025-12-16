@@ -43,3 +43,18 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+/* ========== Experiment Start ========== */
+/* Self reference */
+.language-python .hljs-variable:first-child {
+  color: #0033B3 !important;  /* bright blue like keywords */
+}
+
+/* Code block styling */
+/* Python syntax highlighting - Enhanced color scheme */
+pre code.hljs {
+  padding: 0;
+  background: transparent;
+}
+
+/* ========== Experiment End ========== */
