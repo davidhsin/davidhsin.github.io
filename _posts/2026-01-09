@@ -1,0 +1,8 @@
+
+### memo
+
+```bash
+brew uses --installed <package> # 列出哪些套件依賴 package
+
+brew deps --tree --installed <package> # 列出該 package 的相依套件
+```
