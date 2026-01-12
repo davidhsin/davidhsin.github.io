@@ -44,39 +44,72 @@ hr {
   opacity: 0.3;
 }
 
+/* Self reference */
+.language-python .hljs-variable:first-child {
+  color: #0033B3 !important;  /* bright blue like keywords */
+}
+
+/* Strings */
+.hljs-string {
+  color: #067D17 !important;  /* green */
+}
+
+/* Numbers */
+.hljs-number {
+  color: #1750EB !important;  /* blue */
+}
+
+/* Comments */
+.hljs-comment {
+  color: #8C8C8C !important;  /* gray */
+  font-style: italic;
+}
+
+/* Function parameters */
+.hljs-params {
+  color: #5C4C79 !important;  /* muted purple */
+}
+
+/* Punctuation and operators */
+.hljs-punctuation,
+.hljs-operator {
+  color: #666666 !important;  /* dark gray */
+}
+
+/* Boolean values */
+.hljs-literal {
+  color: #0033B3 !important;  /* bright blue like keywords */
+}
+
+/* Decorators */
+.hljs-meta {
+  color: #3B7C87 !important;  /* teal */
+}
+
+/* Dictionary keys or named arguments */
+.hljs-attr {
+  color: #756BB1 !important;  /* light purple */
+}
+
+/* Special string formatting */
+.hljs-subst {
+  color: #2E7D32 !important;  /* dark green */
+}
+
+/* String interpolation */
+.hljs-template-variable {
+  color: #A44185 !important;  /* pink */
+}
+
+
+
 /* Python syntax highlighting */
-.language-python .hljs-comment {
-  color: #808080 !important;
-}
-
-.language-python .hljs-variable {
-  color: #8fad8a !important;
-}
-
-.language-python .hljs-property {
-  color: #8fad8a !important;
-}
-
-.language-python .hljs-keyword {
-  color: #ec6a65 !important;
-}
-
-.language-python .hljs-literal {
-  color: #cc8bad !important;
-}
-
-.language-python .hljs-type {
-  color: #fab92e !important;
-}
-
-.language-python .hljs-operator {
-  color: #ebdbb2 !important;
-}
-
-.language-python .hljs-punctuation {
-  color: #fe7c19 !important;
-}
-
-.language-python .hljs-built_in {
-  color: #fe7c19 !important;
-}
+/* .language-python .hljs-comment { color: #808080 !important; }
+.language-python .hljs-variable { color: #8fad8a !important; }
+.language-python .hljs-property { color: #8fad8a !important; }
+.language-python .hljs-keyword { color: #ec6a65 !important; }
+.language-python .hljs-literal { color: #cc8bad !important; }
+.language-python .hljs-type { color: #fab92e !important; }
+.language-python .hljs-operator { color: #ebdbb2 !important; }
+.language-python .hljs-punctuation { color: #fe7c19 !important; }
+.language-python .hljs-built_in { color: #fe7c19 !important; } */
