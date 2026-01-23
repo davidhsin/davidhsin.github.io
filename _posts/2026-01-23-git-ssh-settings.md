@@ -30,3 +30,7 @@ Changes 工作目錄上的變更
 
 修 bug、增加 feature、.gitignore 加入新規則，應該分別寫一個 commit，而不是全部寫在一起。原因是比較好 roll back 到上一個版本
 
+```bash
+git checkout -b feature # 建立新的分支 `feature` 並且切換過去。
+git checkout feature # 單純切換至 `feature` 分支
+```
